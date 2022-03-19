@@ -1,0 +1,37 @@
+input[type="text"] {
+  color: white;
+  background: transparent;
+  border: 1px;
+  border-color: white;
+  outline-width: 2px;
+  border-style: inset;
+  /* caret-color: transparent; */
+}
+
+table {
+  empty-cells: show;
+  table-layout: fixed;
+  min-height: 75px;
+  min-width: 375px;
+  position: relative;
+}
+th,
+td {
+  border: 3px solid;
+}
+
+button {
+  width: 60px;
+  height: 70px;
+  font-size: large;
+  text-align: center;
+}
+
+.guess_1 {
+  font-size: calc(10px + 2vmin);
+}
+
+.keyboard {
+  position: fixed;
+  bottom: 0;
+}
